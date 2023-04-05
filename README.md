@@ -102,13 +102,13 @@ For the installer part you have 2 options, you either prepare a Pro Street Pepeg
 
   **System options**: nothing to change here
 
-4. Save config, select the game from your library and press Play.
+2. Save config, select the game from your library and press Play.
 
-5. If Wine wants to install any additional packages (i.e. Mono), let it do so.
+3. If Wine wants to install any additional packages (i.e. Mono), let it do so.
 
-17. In Lutris menu, press the up arrow next to Wine logo, and select 'Wine configuration'.
+4. In Lutris menu, press the up arrow next to Wine logo, and select 'Wine configuration'.
 
-18. Go to 'Libraries' tab, and in 'New override for library' find and Add overrides for following libs:
+5. Go to 'Libraries' tab, and in 'New override for library' find and Add overrides for following libs:
 
 ```
 D3DX9_43
@@ -117,13 +117,13 @@ winhttp
 ```
   Apply and close the config.
 
-21. Save the changes and try running the game. If you followed the instruction correctly, you should be greeted by Team Pepega splash screen.
+6. Save the changes and try running the game. If you followed the instruction correctly, you should be greeted by Team Pepega splash screen.
 
-22. If you're on Steam Deck, in Lutris menu right-click the game and select "Create Steam shortcut". Now you can exit to Game Mode and you'll see a new non-steam game in your library, with full gamepad support on default settings.
+7. If you're on Steam Deck, in Lutris menu right-click the game and select "Create Steam shortcut". Now you can exit to Game Mode and you'll see a new non-steam game in your library, with full gamepad support on default settings.
 
-6. Try playing the game. At this point Wine should configure the prefix and Pro Street should start in it's whole 400x680 glory. Don't worry this can be changed in the options menu of the game. You can change it to the correct resolution by going to "Options" -> "Graphics" -> "Resolution" and change it to 1280x800x60Hz.
+8. Try playing the game. At this point Wine should configure the prefix and Pro Street should start in it's whole 400x680 glory. Don't worry this can be changed in the options menu of the game. You can change it to the correct resolution by going to "Options" -> "Graphics" -> "Resolution" and change it to 1280x800x60Hz.
 
-23. Congratulations, and have fun beating the new kings!
+9. Congratulations, and have fun beating the new kings!
 
 
 Note A: Install lutris-GE-Proton7-42-x86_64
