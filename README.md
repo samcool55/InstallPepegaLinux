@@ -1,4 +1,4 @@
-# InstallPepegaLinux
+# InstallProStreetPepegaLinux
 
 Tutorial for installing and configuring NFS Pro Street Pepega Mod on Linux.
 
