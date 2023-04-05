@@ -1,6 +1,6 @@
 # InstallProStreetPepegaLinux
 
-Tutorial for installing and configuring NFS Pro Street Pepega Mod on Linux.
+Tutorial for installing and configuring NFS Pro Street Pepega Mod on Steam Deck.
 
 If you don't know what the Pro Street Pepega mod is, it's basically a community-created modpack that puts a lot of memes into the game, as well as new cars, improved graphics, new kings, a completely custom campaign and a lot more. You can find more information and downloads at [pepegamod.com](https://pepegamod.com/).
 
