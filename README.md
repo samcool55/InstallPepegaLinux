@@ -2,7 +2,7 @@
 
 Tutorial for installing and configuring NFS Pro Street Pepega Mod on Steam Deck.
 
-If you don't know what the Pro Street Pepega mod is, it's basically a community-created modpack that puts a lot of memes into the game, as well as new cars, improved graphics, new kings, a completely custom campaign and a lot more. You can find more information and downloads at [pepegamod.com](https://pepegamod.com/).
+If you don't know what the Pro Street Pepega mod is, it's basically a community-created modpack that puts a lot of memes into the game, as well as new cars, improved graphics, a completely new campaign and a lot more. You can find more information and downloads at [pepegamod.com](https://pepegamod.com/).
 
 The Pro Street Pepega Mod is the successor of the legendary Most Wanted Pepega Mod released in 2020.
 
