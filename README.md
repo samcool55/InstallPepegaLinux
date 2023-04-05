@@ -17,7 +17,8 @@ This instruction has been tested on Steam Deck/SteamOS 3.4.6. May or may not req
 
 ## Installing Pro Street Pepega
 
-For the installer part you have 2 options, you either prepare a Pro Street Pepega install on Windows and copy it to the Steam Deck or you do the complete installation on the Steam Deck. I would recommend preparing everything on Windows if you don't know much about Lutris.
+For the installer part you have 2 options, you either prepare a Pro Street Pepega install on Windows and copy it to the Steam Deck or you do the complete installation on the Steam Deck. 
+I would recommend preparing everything on Windows if you don't know much about Lutris.
 
 **Install method A: Windows + copy**
 
@@ -26,7 +27,8 @@ For the installer part you have 2 options, you either prepare a Pro Street Pepeg
   Make sure you select the input option "XBOX Controller" and "Fullscreen" during the installation! These settings matter to make sure the buttons of the Steam Deck are     properly mapped without any tweaking.
 
 2. Copy the contents of the "Linux-only" folder to the root of the Pro Street Pepega mod.
-  The "Linux-only" folder contains a slightly modified nfs.exe and a d3dx9_34.dll file that we need later. This copy will overwrite nfs.exe which is what we want.
+  The "Linux-only" folder contains a slightly modified nfs.exe and a d3dx9_34.dll file that we need later. 
+  This copy will overwrite nfs.exe which is what we want.
   
 3. Copy your prepared Pro Street Pepega folder to the Steam Deck.
 
@@ -58,7 +60,8 @@ For the installer part you have 2 options, you either prepare a Pro Street Pepeg
 
 2. Save config, select the game from your library and press Play. The Pro Street Pepega installer will now launch.
 
-3. Select an EMPTY folder when deciding where to install Pro Street Pepega. I highly recommend installing it on a location that's outside the Wine environment by using the Z: drive
+3. Select an EMPTY folder when deciding where to install Pro Street Pepega. 
+    I highly recommend installing it on a location that's outside the Wine environment by using the Z: drive
 
 4. Make sure you select "XBOX Controller" and "Fullscreen" during the setup.
 
@@ -122,7 +125,9 @@ winhttp
 
 7. If you're on Steam Deck, in Lutris menu right-click the game and select "Create Steam shortcut". Now you can exit to Game Mode and you'll see a new non-steam game in your library, with full gamepad support on default settings.
 
-8. Try playing the game. At this point Wine should configure the prefix and Pro Street should start in it's whole 400x640 glory. Don't worry this can be changed in the options menu of the game. You can change it to the correct resolution by going to "Options" -> "Graphics" -> "Resolution" and change it to 1280x800x60Hz.
+8. Try playing the game. At this point Wine should configure the prefix and Pro Street should start in it's whole 400x640 glory.
+  Don't worry this can be changed in the options menu of the game. 
+  You can change it to the correct resolution by going to "Options" -> "Graphics" -> "Resolution" and change it to 1280x800x60Hz.
 
 9. Congratulations, and have fun beating the new kings!
 
