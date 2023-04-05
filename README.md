@@ -121,7 +121,7 @@ winhttp
 
 7. If you're on Steam Deck, in Lutris menu right-click the game and select "Create Steam shortcut". Now you can exit to Game Mode and you'll see a new non-steam game in your library, with full gamepad support on default settings.
 
-8. Try playing the game. At this point Wine should configure the prefix and Pro Street should start in it's whole 400x680 glory. Don't worry this can be changed in the options menu of the game. You can change it to the correct resolution by going to "Options" -> "Graphics" -> "Resolution" and change it to 1280x800x60Hz.
+8. Try playing the game. At this point Wine should configure the prefix and Pro Street should start in it's whole 400x640 glory. Don't worry this can be changed in the options menu of the game. You can change it to the correct resolution by going to "Options" -> "Graphics" -> "Resolution" and change it to 1280x800x60Hz.
 
 9. Congratulations, and have fun beating the new kings!
 
