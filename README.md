@@ -1,34 +1,71 @@
 # InstallPepegaLinux
 
-Tutorial for installing and configuring NFS Most Wanted Pepega Edition Mod on Linux.
+Tutorial for installing and configuring NFS Pro Street Pepega Mod on Linux.
 
-If you don't know what Pepega Edition is, it's basically a community-created modpack that puts a lot of memes into the game, as well as new cars, improved graphics, new Blacklist drivers and completely insane Challenger Series. You can find more information and downloads at [pepegamod.com](https://pepegamod.com/).
+If you don't know what the Pro Street Pepega mod is, it's basically a community-created modpack that puts a lot of memes into the game, as well as new cars, improved graphics, new kings, a completely custom campaign and a lot more. You can find more information and downloads at [pepegamod.com](https://pepegamod.com/).
 
-Special thanks to **/u/samcool55** for sharing his config with me :^)
+The Pro Street Pepega Mod is the successor of the legendary Most Wanted Pepega Mod released in 2020.
 
-This instruction has been tested on Steam Deck/SteamOS 3.2.1 and Arch Linux 6.0.2. May or may not require additional steps for different distros.
+This instruction has been tested on Steam Deck/SteamOS 3.4.6. May or may not require additional steps for different distros.
 
 ## Pre-requisites
 
 - Lutris
-- Working most wanted 1.3 installation (vanilla or Pepega patched) or working installer
-- Pepega mod files + 2.0.1 update (if vanilla installation)
-- NFS MW HUD Adapter (publicly available script to fix HUD layout)
+- The Need for Speed Pro Street Pepega version 1.1 installer
+- The folder "Linux-only" from the installer
 - Recommended external kb + mouse on Steam Deck for comfort
 
-## Installation
+## Preparing the Pro Street Pepega install
 
-1. Either get a working installation from a windows PC (vanilla 1.3 or with Pepega already installed), or get a working custom installer and install through Wine - the point here is to have a working 1.3 installation. We do not care about controller or graphics options for now, we're just making sure the game is able to launch.
+For the installer part you have 2 options, you either prepare a Pro Street Pepega install on Windows and copy it to the Steam Deck or you do the complete installation on the Steam Deck. I would recommend preparing everything on Windows if you don't know much about Lutris.
 
-2. In a writeable directory, create a new folder for the wine prefix - homedir is fine. Name it however you want, below is just my example:
+Install method A: Windows + copy
 
+1. Run the installer and install Pro Street Pepega to an EMPTY folder. ALL the necessary game files are included with the installer.
+  Make sure you select the input option "XBOX Controller" and "Fullscreen" during the installation! These settings matter to make sure the buttons of the Steam Deck are     properly mapped without any tweaking.
+
+2. Copy the contents of the "Linux-only" folder to the root of the Pro Street Pepega mod.
+  The "Linux-only" folder contains a slightly modified nfs.exe and a d3dx9_34.dll file that we need later. This copy will overwrite nfs.exe which is what we want.
+  
+3. Copy your prepared Pro Street Pepega folder to the Steam Deck.
+
+Install method B: Steam Deck
+
+1. In lutris, add a new game -> Add locally installed game with settings as below:
+
+  **Game info**:
+  
+  Name: whatever you want
+  
+  Runner: Wine
+
+  **Game options**:
+
+  Executable:
+  Select the installer.exe from the Pro Street Pepega installer.
+  
+  In my case I extracted the setup in my Downloads folder so the Executable selected was the following:
+  If your install folder is in a different location, make sure you point Lutris to the right Executables and folders.
 ```
-mkdir /home/deck/Games/nfsmw_pepega
+/home/deck/Downloads/NFS_PSPE_V1.1_Release/installer.exe
 ```
 
-  If you have a working installation, you can just copy-paste all the files into this directory. 
+  **Runner options**:
+  Wine version - lutris.fshack-7.2-x86_64
 
-3. In lutris, add a new game -> Add locally installed game with settings as below:
+  **System options**: nothing to change here
+
+2. Save config, select the game from your library and press Play. The Pro Street Pepega installer will now launch.
+
+3. Select an EMPTY folder when deciding where to install Pro Street Pepega. I highly recommend installing it on a location that's outside the Wine environment by using the Z: drive
+
+4. Make sure you select "XBOX Controller" and "Fullscreen" during the setup.
+
+5. Copy the files "nfs.exe" and "d3dx9_34.dll" from the install folder to the root of your new install of Pro Street Pepega.
+
+## Getting Pro Street Pepega running with Lutris
+
+1. In lutris, add a new game -> Add locally installed game with settings as below:
 
   **Game info**:
   
@@ -42,17 +79,17 @@ mkdir /home/deck/Games/nfsmw_pepega
   - if you have a working installer, copy the path to Setup.exe here;
   - if you copied the files already, select the path to speed.exe:
 ```
-/home/deck/Games/nfsmw_pepega/speed.exe
+/home/deck/Games/nfsps_pepega/speed.exe
 ```
 
   Working directory:
 ```
-/home/deck/Games/nfsmw_pepega
+/home/deck/Games/nfsps_pepega
 ```
 
   Wine prefix:
 ```
-/home/deck/Games/nfsmw_pepega
+/home/deck/Games/nfsps_pepega
 ```
 
   Prefix architecture: Auto (default)
@@ -117,20 +154,8 @@ winhttp
 ```
   Apply and close the config.
 
-19. Now copy the `NFSMWHUDAdapter.asi` file to `scripts` folder in gamedir.
-
-20. Final thing to do is open the `NFSMostWanted.WidescreenFix.ini` file with your favorite text editor and set the following options:
-
-```
-ResX = 1280 
-ResY = 800
-^These values are for steamdeck native resolution, adjust accordingly for your display
-
-ImproveGamepadSupport = 1 //This will make the in-game keybinds display Xbox symbols
-```
-
 21. Save the changes and try running the game. If you followed the instruction correctly, you should be greeted by Team Pepega splash screen.
 
 22. If you're on Steam Deck, in Lutris menu right-click the game and select "Create Steam shortcut". Now you can exit to Game Mode and you'll see a new non-steam game in your library, with full gamepad support on default settings.
 
-23. Congratulations, and welcome to Cockport.
+23. Congratulations, and have fun beating the new kings!
