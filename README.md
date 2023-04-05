@@ -97,7 +97,8 @@ For the installer part you have 2 options, you either prepare a Pro Street Pepeg
 
 
   **Runner options**:
-  Wine version - lutris-GE-Proton7-42-x86_64 (other people have used lutris.fshack-7.2-x86_64 succesfully too)
+  Wine version - lutris-GE-Proton7-42-x86_64 (other people have used lutris.fshack-7.2-x86_64 succesfully too).
+  
   If you haven't installed lutris-GE-Proton7-42-x86_64 go to Note A for instructions.
 
   **System options**: nothing to change here
