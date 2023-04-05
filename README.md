@@ -77,8 +77,8 @@ For the installer part you have 2 options, you either prepare a Pro Street Pepeg
   **Game options**:
 
   Executable:
-  - if you have a working installer, copy the path to Setup.exe here;
-  - if you copied the files already, select the path to speed.exe:
+  Select the nfs.exe that's in the root of your Pro Street Pepega install, in my case it's the folder it's located in /home/deck/Games/nfsps_pepega but this is ONLY AN EXAMPLE.
+  If your game is installed in a different folder you'll need to change the location of the nfs.exe according to your situation.
 ```
 /home/deck/Games/nfsps_pepega/speed.exe
 ```
@@ -97,52 +97,14 @@ For the installer part you have 2 options, you either prepare a Pro Street Pepeg
 
 
   **Runner options**:
-  Wine version - lutris.fshack-7.2-x86_64
+  Wine version - lutris-GE-Proton7-42-x86_64 (other people have used lutris.fshack-7.2-x86_64 succesfully too)
+  If you haven't installed lutris-GE-Proton7-42-x86_64 go to Note A for instructions.
 
   **System options**: nothing to change here
 
-4. Save config, select the game from your library and press Play. If you copied a prepared installation, skip to step 9.
+4. Save config, select the game from your library and press Play.
 
 5. If Wine wants to install any additional packages (i.e. Mono), let it do so.
-
-6. If you're running an installer, as install location choose your wine prefix:
-```
-Z:\home\deck\Games\nfsmw_pepega
-```
-  In my case the directory was not visible, just input it manually.
-
-7. Don't install any additional packages like DirectX if prompted.
-
-8. After installation is complete, change the Executable path to speed.exe like in step 3.
-
-9. Try playing the game. At this point Wine should configure the prefix and Most Wanted should start in it's whole 640x480 glory.
-  If you copied a vanilla installation, it *should* also run. If you copied Pepega-patched installation, it will probably run, but you will definitely experience glitches like out-of-scale intro movies and missing car models. This is fine!
-
-10. If you ran the game and created a profile, delete it and quit.
-
-11. Back in Lutris, right-click the game and select Configure.
-
-12. In Game options, set the Executable to Pepega Mod Version 2 Installer.exe, save and run the game.
-  Note: Text in installer may not render correctly, in my case it was all black-on-black text, but all necesarry options are visible.
-
-  Navigate like so:
-```
-1. Next
-2. scroll readme -> Next
-3. in path manually input your folder: Z:\home\deck\Games\nfsmw_pepega
-4. uncheck the tickbox to backup files
-5. on next screen, leave checkboxes as they are -> Next
-6. same on next screen unless you want to change some options -> Install
-```
-
-13. If it looks like the installer is hung at 0%, just give it some time and it will start eventually.
-
-14. When progress reaches 100%, check the installation log and if you notice a lot of errors like: `Copy failed:java.io.IOException: No more files`,
-just finish the installer, and then copy+overwrite all files from `PepegaModFiles` folder to your game folder.
-
-15. Now, copy+overwrite the files from patch 2.0.1 directory - choose if you want light cones or not (I recommend using them).
-
-16. Back in game configuration, switch the executable back to speed.exe.
 
 17. In Lutris menu, press the up arrow next to Wine logo, and select 'Wine configuration'.
 
@@ -159,4 +121,12 @@ winhttp
 
 22. If you're on Steam Deck, in Lutris menu right-click the game and select "Create Steam shortcut". Now you can exit to Game Mode and you'll see a new non-steam game in your library, with full gamepad support on default settings.
 
+6. Try playing the game. At this point Wine should configure the prefix and Pro Street should start in it's whole 400x680 glory. Don't worry this can be changed in the options menu of the game. You can change it to the correct resolution by going to "Options" -> "Graphics" -> "Resolution" and change it to 1280x800x60Hz.
+
 23. Congratulations, and have fun beating the new kings!
+
+
+Note A: Install lutris-GE-Proton7-42-x86_64
+
+1. In Lutris press the open box next to Wine in the left menu
+2. Press "install" for lutris-GE-Proton7-42
