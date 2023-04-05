@@ -115,7 +115,7 @@ I would recommend preparing everything on Windows if you don't know much about L
 5. Go to 'Libraries' tab, and in 'New override for library' find and Add overrides for following libs:
 
 ```
-D3DX9_43
+D3DX9_34
 dinput8
 winhttp
 ```
