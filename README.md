@@ -15,13 +15,14 @@ This instruction has been tested on Steam Deck/SteamOS 3.4.6. May or may not req
 - The folder "Linux-only" from the installer
 - Recommended external kb + mouse on Steam Deck for comfort
 
-## Preparing the Pro Street Pepega install
+## Installing Pro Street Pepega
 
 For the installer part you have 2 options, you either prepare a Pro Street Pepega install on Windows and copy it to the Steam Deck or you do the complete installation on the Steam Deck. I would recommend preparing everything on Windows if you don't know much about Lutris.
 
-Install method A: Windows + copy
+**Install method A: Windows + copy**
 
 1. Run the installer and install Pro Street Pepega to an EMPTY folder. ALL the necessary game files are included with the installer.
+
   Make sure you select the input option "XBOX Controller" and "Fullscreen" during the installation! These settings matter to make sure the buttons of the Steam Deck are     properly mapped without any tweaking.
 
 2. Copy the contents of the "Linux-only" folder to the root of the Pro Street Pepega mod.
@@ -29,17 +30,17 @@ Install method A: Windows + copy
   
 3. Copy your prepared Pro Street Pepega folder to the Steam Deck.
 
-Install method B: Steam Deck
+**Install method B: Steam Deck**
 
 1. In lutris, add a new game -> Add locally installed game with settings as below:
 
-  **Game info**:
+  *Game info*:
   
   Name: whatever you want
   
   Runner: Wine
 
-  **Game options**:
+  *Game options*:
 
   Executable:
   Select the installer.exe from the Pro Street Pepega installer.
